@@ -1,1 +1,651 @@
-<h1>This is test page.</h1>
+<div class="loading ">
+    <div class="loading-container">
+        <p>Loading...</p>
+        <%= image_tag 'logo_hackaholdem_loading.svg', class: 'loader' %>
+    </div>
+</div>
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" role="navigation">
+    <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+    <div class="container">
+        <div class="navbar-header">
+            <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+            </button>
+			<%= link_to root_path, class: "navbar-brand" do %>
+			  <span class="icon-logo-hackaholdem"></span> Hackahold'em
+			<% end %>
+
+
+
+
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                <li class="buy-now">
+                    <a class="btn btn-fill btn-default" href="#">
+                    Register Now!
+                    </a>
+                </li>
+                <li>
+                    <a href="" data-scroll="true" data-id="#secton_1">
+                    What is Hackahold'em?
+                    </a>
+                </li>
+                <li>
+                    <a href="" data-scroll="true" data-id="#secton_2"> 
+                    What will we do?
+                    </a>
+                </li>
+                <li>
+                    <a href="" data-scroll="true" data-id="#secton_3">
+                    Possible Themes
+                    </a>
+                </li>
+                <li>
+                    <a href="" data-scroll="true" data-id="#secton_4"> 
+                    Buddies
+                    </a>
+                </li>
+                <li>
+                    <a href="" data-scroll="true" data-id="#secton_5"> 
+                    Venue
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+<div class="wrapper">
+    <div class="section section-header" id="top">
+        <div class="parallax pattern-image filter filter-color-black" data-color="black">
+            <%= image_tag 'main_background.jpg' %>
+            <div class="container">
+                <div class="content">
+                    <p>Dec 2nd - 3rd, 2017, Sligo, Ireland</p>
+                    <h1>Hackahold'em</h1>
+                    <div class="separator-container">
+                        <div class="separator line-separator">✻</div>
+                    </div>
+                    <h2>Hackathon Like a Texas Hold'em Game</h2>
+                	<div class="col-md-2 col-md-offset-5 header-button">
+                        <button type="button" class="btn btn-lg btn-darkblack btn-contact">
+                        REGISTER NOW <i class="fa fa-address-book"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#whatisit" data-scroll="true" data-id="#whatisit" class="scroll-arrow hidden-xs hidden-sm">
+            <i class="fa fa-angle-down"></i>
+        </a> -->
+    </div>
+
+    <div class="section section-we-are-1" id="secton_1">
+        <div class="text-area">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h5 class="text-gray"> What is Hackahold'em?</h5>
+                        <h2>A Poker Game Style Hackathon</h2>
+                        <div class="separator-container">
+                            <div class="separator line-separator">✻</div>
+                        </div>
+                        <p class="large">Hackahold'em is a hackathon run by a community of people that like to get together to network, have fun and build cool stuff. It's a self-funding and self-voting casual hackathon, just like enjoying Texas Hold'em with your friends. As a community, our values revolve around inclusiveness, transparency, innovation, and most importantly, fairness and fun.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carousel">
+            <div id="section-we-are-1" class="carousel slide add-animation-stopped-1" data-interval="20000">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner pattern-image animate">
+                    <div class="item  active">
+                    	<%= image_tag 'img_hackathon.jpg', class: 'full-image' %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section "What We do" example 4: Big Title & 4 columns icons -->
+    <div class="section section-we-do-2" id="secton_2">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h5 class="text-gray">What will we do?</h5>
+                    <h2>A Hackathon for the people, by the people</h2>
+                    <div class="separator-container">
+                        <div class="separator line-separator">✻</div>
+                    </div>
+                    <p>Hackahold'em hackathons are self-organised. They are based on an agreed theme by participants. Hackathoners pay to participate, and the participation fees are divided among first and second places, like when we play Texas Hold'em with friends. There's no judge. Participants will vote for their favourite team, and ultimately decide the winners.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="pe-7s-rocket"></i>
+                        </div>
+                        <h3>Hackathon</h3>
+                        <p>You will make a fun and simple prototype product with other people to tackle the theme we  decide together.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="pe-7s-piggy"></i>
+                        </div>
+                        <h3>Self-funding</h3>
+                        <p>Geting sponsors for prize money always makes hackathons complicated and less enjoyable. This is (possibly) the world's first self-funded hackathon where participants chip in to create the prize money.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="pe-7s-like2"></i>
+                        </div>
+                        <h3>Self-voting</h3>
+                        <p>All participants will vote for what they think is the most interesting and innovative project. There are no judges or panels. You will become the judge.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="pe-7s-users"></i>
+                        </div>
+                        <h3>Team Creation</h3>
+                        <p>Teams will be set up via a simple draw. This gives each participant a chance to work with new people without the hassle of a self-sales pitch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section "What We do" example 3: Small Title & 3 columns icons -->
+
+
+    <!-- Section "Our Projects" example 4: 3 Columns Boxed & Color Hover -->
+    <div class="section section-we-made-3 section-with-hover" id="secton_3">
+        <div class="text-area">
+            <div class="title">
+                <h5 class="text-gray">Possible Themes</h5>
+                <h2>We will vote for the theme</h2>
+                <div class="separator-container">
+                    <div class="separator line-separator">✻</div>
+                </div>
+                <p>This is a completely participant-driven hackathon, so we will all vote to choose the theme. These are just examples of themes to vote for, but participants are welcome to suggest any new themes.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="projectsLine1">
+                <div class="col-md-4">
+                    <div class="project">
+                        <%= image_tag 'theme_ease_of_stress.jpg', class: 'img-responsive' %>
+                        <a class="over-area color-green" href="javascript:void(0)" onclick="rubik.showModal(this)" data-target="project_1">
+                            <div class="content">
+                                <h4>Ease of Stress</h4>
+                                <p>We are living in such a stressful world. Create something that can ease our daily stress in some way.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <%= image_tag 'theme_you_can_do_it.jpg', class: 'img-responsive' %>
+                        <a class="over-area color-black" href="javascript:void(0)" onclick="rubik.showModal(this)" data-target="project_2">
+                            <div class="content">
+                                <h4>You Can Do It Things</h4>
+                                <p>Let's be honest. It is always tough to keep going to achieve something. Can you think of any go-getter ideas to help people achieve their goals?</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <%= image_tag 'theme_night_out.jpg', class: 'img-responsive' %>
+                        <a class="over-area color-blue " href="javascript:void(0)" onclick="rubik.showModal(this)" data-target="project_3">
+                            <div class="content">
+                                <h4>Fun Night-out</h4>
+                                <p>We love to have a fun night out with friends, lovers (or anyone). Can you create a project to make these nights even more fun and less hessle?</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <%= image_tag 'theme_doggie_and_kittie.jpg', class: 'img-responsive' %>
+                        <a class="over-area color-purple" href="javascript:void(0)" onclick="rubik.showModal(this)" data-target="project_4">
+                            <div class="content">
+                                <h4>Doggie-Kittie</h4>
+                                <p>Attention doggie-kittie lovers! Can you think of something to make the lives of our family pets happier?</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <%= image_tag 'theme_connection.jpg', class: 'img-responsive' %>
+                        <a class="over-area color-green" href="javascript:void(0)" onclick="rubik.showModal(this)" data-target="project_5">
+                            <div class="content">
+                                <h4>Connection Booster</h4>
+                                <p>Think of something that boosts up any kind of connections between people, such as professional networking, dating, or even something related to couples.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <%= image_tag 'theme_shopping.jpg', class: 'img-responsive' %>
+                        <a class="over-area color-gold" href="javascript:void(0)" onclick="rubik.showModal(this)" data-target="project_6">
+                            <div class="content">
+                                <h4>Shopping-therapy</h4>
+                                <p>Shopping experiences are supposed to be fun and hassle-free, but this is not always the case. Create anything related to improving shopping experiences.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section "Our Projects" example 4: 3 Columns Boxed & Color Hover -->
+
+    <!-- Section "Clients" example 1: 4 Columns Logos -->
+    <div class="section section-clients-1" id="secton_4">
+        <div class="container">
+            <div class="text-area">
+                <div class="title">
+                    <h5 class="text-gray">Buddies</h5>
+                    <h2>Our cool friends make Hackahold'em more enjoyable</h2>
+                    <div class="separator-container">
+                        <div class="separator line-separator">✻</div>
+                    </div>
+                    <p>Although this is a self-funded hackathon, we still have certain needs like a roof over our heads, and food in our tummies. We already have a venue buddy. Please let us know if you want to be a cool Hackahold'em buddy too.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section "Clients" example 2: 4 Columns Logos -->
+
+
+    <!-- Section "Team" example 1: Title & Full Image -->
+    <div class="section section-team-1" id="secton_5">
+        <div class="container">
+            <div class="text-area">
+                <div class="title">
+                    <h5 class="text-gray">Venue</h5>
+                    <h2>DEC 2 - 3, 2017<br>The Building Block, Sligo, Ireland</h2>
+                    <div class="separator-container">
+                        <div class="separator line-separator">✻</div>
+                    </div>
+                    <p>The first event is taking place in The Building Block (buddy) and starts at 2pm on December 2nd, and finishes at 2pm on December 3rd.</p>
+                </div>
+            </div>
+        </div>
+        <div class="full-image gradient-image">
+            <%= image_tag 'img_buildingblock_2.jpg' %>
+        </div>
+    </div>
+    <!-- End Section "Team" example 1: Description & Full Image -->
+
+
+	<!-- Section "Contact" example 4: Address & Maps -->
+	<div class="section section-contact-3" id="contact3">
+	
+	  <div class="contact-container">
+	      <div class="address-container add-animation-stopped animation-1" id = "contact3-container">
+	          <div class="address">
+	              <h4>Address</h4>
+	              <p class="text-gray">
+	                  The Building Block<br>
+	                  Waterfront House, Bridge St,<br>
+	                  Sligo, Ireland
+	              </p>
+	              <h4>Phone</h4>
+	              <p class="text-gray">+353 85 7611811</p>
+	              <h4>e-mail</h4>
+	              <a href="mailto:hackaholdem@gmail.com">
+	                  <p class="text-gray">hackaholdem@gmail.com</p>
+	              </a>
+	          </div>
+	      </div>
+	      <div  class="map">
+	          <div id="contactUsMap" class="big-map"></div>
+	      </div>
+	  </div>
+	</div>
+	<!-- End Section "Contact" example 4: Address & Maps -->
+
+
+    <!-- Section "Contact" example 1: Form Style 1 -->
+    <div class="section section-contact-1" id="contact1">
+        <div class="container">
+            <div class="text-area">
+                <div class="title">
+                    <h2>Register Now</h2>
+                    <div class="separator-container">
+                        <div class="separator line-separator">✻</div>
+                    </div>
+                    <p>You can register via Eventbrite. The buy-in cost is 30 euro, which means the prize money could be 900 euro if there are 30 participants (minus the Eventbrite fee).</p>
+
+                </div>
+                <div class="register-button">
+                    <button type="button" class="btn btn-lg btn-darkblack btn-contact">
+                    REGISTER NOW <i class="fa fa-address-book"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section "Contact" example 1: Form Style 1 -->
+
+
+
+
+
+
+<!--  Here are the examples of the content for each project that is viewed inside of the page. You can create how many projects you want if you set the specific #id      
+-->
+ 
+<div class="project-content" id="project_1">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+            <h5>Example No.1<span>.</span></h5>
+            <h2>EASE OF STRESS</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">✻</div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="project-text">
+              <p>Stress manifests in a multitude of ways. Some of them are emotional symptoms, like moodiness and irritability, and others may mask themselves as physical issues.</p>
+              <p>The problem with this physiological phenomenon is that you may simply chalk these issues up as something harmless. Not only that, data shows stress is continually on the rise, making the problem more of a byproduct of everyday life rather than a health complication that needs to be controlled. But there are major consequences if you don’t address your stress: It can lead to heart problems, sleep disturbances, depressive symptoms and more.</p>
+              <p>Needless to say, it’s important to determine whether you’re experiencing issues with your emotional health. Can’t tell if you’re feeling high-strung or not? Create something that can ease our daily stress in some way.</p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-image">
+                        <%= image_tag 'theme_ease_of_stress.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_ease_of_stress_2.jpg' %>
+                    </div>
+                </div>
+                  <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_ease_of_stress_3.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_ease_of_stress_4.jpg' %>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-content" id="project_2">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+            <h5>Example No.2<span>.</span></h5>
+            <h2>You Can Do It Things</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">✻</div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="project-text">
+              <p>We all have goals in life. But we don’t all do what it takes to achieve those goals. While we might start out with good intentions, we eventually get sidetracked, caught up, and engrossed in distractions or bad habits. And those goals that were once brightly illuminated in our minds, dim and fade away.</p>
+              <p>Yet, there are those select few out there who are able to set goals and achieve them. They do it consistently. So what sets that person apart from the others? How is it that one individual can continuously follow through, while countless more eventually end up throwing in that proverbial towel and giving up? Let's think of any go-getter ideas to help people achieve their goals.</p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-image">
+                        <%= image_tag 'theme_you_can_do_it.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_you_can_do_it_2.jpg' %>
+                    </div>
+                </div>
+                  <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_you_can_do_it_3.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_you_can_do_it_4.jpg' %>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="project-content" id="project_3">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+            <h5>Example No.3<span>.</span></h5>
+            <h2>Fun Night-out</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">✻</div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="project-text">
+              <p>Everyone looks forward to a fun night out. There’s nothing better than catching up with your closest friends over dinner and drinks. Or organising an activity to get your adrenaline pumping. But organising such events are not always easy.</p>
+              <p>Deciding what to do, where to go and setting dates can be time consuming.  Other times you may want to do something with friends, but realise everyone is busy with their own lives. Wouldn’t it be cool to easily find people to hang out with or find an easier way to plan a night out? Can you create a project to make these nights even more fun and less hassle?</p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-image">
+                        <%= image_tag 'theme_night_out.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_night_out_2.jpg' %>
+                    </div>
+                </div>
+                  <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_night_out_3.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_night_out_4.jpg' %>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-content" id="project_4">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+            <h5>Example No.4<span>.</span></h5>
+            <h2>Doggie-Kittie</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">✻</div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="project-text">
+              <p>Any fur parents will know that having a dog, or cat is a big responsibility. They need our love and attention just as much as humans do. They get lonely, bored, anxious and a whole mix of other things that can worry puppy and kitten lovers.</p>
+              <p>It’s normal for us to love our pets like a child, racing home after work to let him or her out to do their business, make sure they are well fed and loved. Often we leave parties early and struggle to arrange trips abroad until we find the perfect sitter. These animals are a part of the family and we want to keep them safe and happy with minimum stress. Can you think of something to make the lives of our family pets happier?</p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-image">
+                        <%= image_tag 'theme_doggie_and_kittie.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_doggie_and_kittie_2.jpg' %>
+                    </div>
+                </div>
+                  <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_doggie_and_kittie_3.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_doggie_and_kittie_4.jpg' %>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-content" id="project_5">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+            <h5>Example No.5<span>.</span></h5>
+            <h2>Connection Booster</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">✻</div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="project-text">
+              <p>These days, everyone is busy. We get it. Between work, family and social commitments, there's hardly enough time to squeeze in half an hour of Netflix, let alone carve out a significant chunk of time to spend with your significant other.</p>
+              <p>And what about networking? It can often be difficult, time-consuming, expensive, and fruitless. Perhaps you attend the wrong event and meet no prospects. That isn’t sustainable or an effective use of your time. And what about dating? Think of something that boosts up any kind of connection between people, such as professional networking, dating, or even something related to couples.</p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-image">
+                        <%= image_tag 'theme_connection_4.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_connection_3.jpg' %>
+                    </div>
+                </div>
+                  <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_connection_2.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_connection_1.jpg' %>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-content" id="project_6">
+  <div>
+    <div class="project-details">
+      <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+      <div class="container">
+        <div class="project-title">
+            <h5>Example No.6<span>.</span></h5>
+            <h2>Shopping-therapy</h2>
+            <div class="separator-container">
+              <div class="separator line-separator">✻</div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="project-text">
+              <p>We are living in a high-speed society, which puts a lot of pressure on us demanding to be good at different things: to have a nice job, to be a good parent, to have a lot of interests and hobbies, to speak several foreign languages, etc. These social pressures can often lead to feeling stressed.</p>
+              <p>This stress has to be relieved somehow or, otherwise, the tension will grow to the extent that we might even get sick. Retail therapy is one of many ways to elevate the mood and get rid of stress. As a result, shopping experiences are supposed to be fun and hassle-free, but this is not always the case. Create something related to improving shopping experiences.</p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-image">
+                        <%= image_tag 'theme_shopping.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_shopping_2.jpg' %>
+                    </div>
+                </div>
+                  <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_shopping_3.jpg' %>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-image">
+                       <%= image_tag 'theme_shopping_4.jpg' %>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="body-layer"></div>

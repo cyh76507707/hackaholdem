@@ -1,3 +1,106 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+  font-family: "hackaholdem-logo";
+  src:url("fonts/hackaholdem-logo.eot");
+  src:url("fonts/hackaholdem-logo.eot?#iefix") format("embedded-opentype"),
+    url("fonts/hackaholdem-logo.woff") format("woff"),
+    url("fonts/hackaholdem-logo.ttf") format("truetype"),
+    url("fonts/hackaholdem-logo.svg#hackaholdem-logo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.icon-logo-hackaholdem {
+	font-size: 79%;
+}
+
+.header-button {
+	margin-top: 22%;
+}
+
+@media (min-width: 768px) {
+	.header-button {
+		margin-top: 30px;
+	}
+}
+
+
+
+
+#contact3, #contact3-container {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#secton_5 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+
+.btn-darkblack {
+  background-color: #000000;
+  border-color: #000000;
+  color: white;
+  opacity: 1;
+  line-height: 1em;
+  position: relative;
+  padding: 16px 44px;
+  letter-spacing: 2px;
+}
+.btn-darkblack i {
+  position: absolute;
+  top: 14px;
+  right: 0.25em;
+  opacity: 0;
+}
+.btn-darkblack:hover, .btn-darkblack:focus {
+  background-color: #343434;
+  border-color: #343434;
+  color: white;
+  padding: 16px 54px 16px 34px;
+}
+.btn-darkblack:hover i, .btn-darkblack:focus i {
+  right: 26px;
+  opacity: 1;
+}
+
+/* BUTTONS */
+.form-control {
+  border-color: #d0cdbc;
+}
+.form-control:focus {
+  border-color: #777777;
+}
+
+a,
+.list-logos a img:first-child,
+.section-clients-3 #clients-carousel li img:first-child, .project-content .icon-close i, .nav-text > li.active a {
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+
+.btn,
+.btn-darkblack i {
+  -webkit-transition: all 150ms ease-out;
+  -moz-transition: all 150ms ease-out;
+  -o-transition: all 150ms ease-out;
+  -ms-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+
+
+.register-button {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+

@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Hackaholdem</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="description" content="World first self-funding and self-voting community-driven hackathon">
+    <meta name="keywords" content="hackathon, texas holdem, hack, hacka, developers, start-up, event, community, sligo, ireland, hackathon ireland"/>
+
+    <!--     Fonts and icons     -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://file.myfontastic.com/bBso56yp2dFA69pfcDmnQm/icons.css" rel="stylesheet">
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= favicon_link_tag 'favicon.ico' %>
+
   </head>
 
-  <body>
+  <body class="landing-page">
     <%= yield %>
+
+    <!--  script for google maps   -->
+  		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   </body>
 </html>
