@@ -362,11 +362,11 @@ body > .navbar-collapse a {
   font-size: 16px;
 }
 .navbar .navbar-brand {
-  font-weight: 600;
+  font-weight: 200;
   margin: 5px 0px;
   padding: 20px 15px;
   font-size: 20px;
-  font-family: "Slim-Joe";
+  font-family: "Helvetica Neue";
   letter-spacing: 0;
 }
 .navbar .navbar-nav > li > a {
@@ -1656,7 +1656,6 @@ h2, .h2 {
   line-height: 1.25;
   letter-spacing: 0.02em;
   margin: 0.4em 0;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -2408,9 +2407,9 @@ a.carousel-control span.fa {
 }
 .section-header h1 {
   letter-spacing: 0.1em;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 6em;
-  font-family: "Slim-Joe";
+  font-family: "Helvetica Neue";
   text-transform: uppercase;
   text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
 }
@@ -2455,12 +2454,12 @@ a.carousel-control span.fa {
 }
 .section-we-are-1 #carousel .left,
 .section-we-are-2 #carousel .left {
-  cursor: url(../img/arrow-left.png), url(../img/arrow-left.cur), default !important;
+  cursor: url(arrow-left.png), url(arrow-left.cur), default !important;
   /* Built-in fallback */
 }
 .section-we-are-1 #carousel .right,
 .section-we-are-2 #carousel .right {
-  cursor: url(../img/arrow-right.png), url(../img/arrow-right.cur), default !important;
+  cursor: url(arrow-right.png), url(arrow-right.cur), default !important;
   /* Built-in fallback */
 }
 
@@ -3402,7 +3401,7 @@ body.noscroll {
 .section-numbers-1 .number, .section-numbers-2 .number, .section-numbers-3 .number {
   font-size: 40px;
   color: #D0011B;
-  font-family: "Slim-Joe", "Helvetica Neue", "Arial";
+  font-family: "Helvetica Neue", "Helvetica Neue", "Arial";
   font-weight: 400;
 }
 .section-numbers-1 .description, .section-numbers-2 .description, .section-numbers-3 .description {

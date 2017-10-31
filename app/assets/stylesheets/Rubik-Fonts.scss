@@ -1,32 +1,43 @@
 @font-face {
-	font-family: 'Verlag-Book';
-	src:font-url('/assets/Verlag-Book.otf') format("opentype");
-	src:font-url('/assets/Verlag-Book.eot?d7yf1v');
-	src:font-url('/assets/Verlag-Book.eot?#iefixd7yf1v') format('embedded-opentype'),
-		font-url('/assets/Verlag-Book.woff?d7yf1v') format('woff'),
-		font-url('/assets/Verlag-Book.ttf?d7yf1v') format('truetype');
+	font-family: "Verlag-Book";
+	src:url("/fonts/Verlag-Book.otf") format("opentype");
+	src:url("/fonts/Verlag-Book.eot?d7yf1v");
+	src:url("/fonts/Verlag-Book.eot?#iefixd7yf1v") format("embedded-opentype"),
+		url("/fonts/Verlag-Book.woff?d7yf1v") format("woff"),
+		url("/fonts/Verlag-Book.ttf?d7yf1v") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Verlag-Book';
-	src:font-url('/assets/Verlag-Bold.otf') format("opentype");
-	src:font-url('/assets/Verlag-Bold.eot?d7yf1v');
-	src:font-url('/assets/Verlag-Bold.eot?#iefixd7yf1v') format('embedded-opentype'),
-		font-url('/assets/Verlag-Bold.woff?d7yf1v') format('woff'),
-		font-url('/assets/Verlag-Bold.ttf?d7yf1v') format('truetype');
+	font-family: "Verlag-Book";
+	src:url("/fonts/Verlag-Bold.otf") format("opentype");
+	src:url("/fonts/Verlag-Bold.eot?d7yf1v");
+	src:url("/fonts/Verlag-Bold.eot?#iefixd7yf1v") format("embedded-opentype"),
+		url("/fonts/Verlag-Bold.woff?d7yf1v") format("woff"),
+		url("/fonts/Verlag-Bold.ttf?d7yf1v") format("truetype");
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Slim-Joe';
-	src:font-url('/assets/Slim-Joe.eot?d7yf1v');
-	src:font-url('/assets/Slim-Joe.eot?#iefixd7yf1v') format('embedded-opentype'),
-		font-url('/assets/Slim-Joe.woff?d7yf1v') format('woff'),
-		font-url('/assets/Slim-Joe.ttf?d7yf1v') format('truetype');
+	font-family: "Slim-Joe";
+	src:url("/fonts/Slim-Joe.eot?d7yf1v");
+	src:url("/fonts/Slim-Joe.eot?#iefixd7yf1v") format("embedded-opentype"),
+		url("/fonts/Slim-Joe.woff?d7yf1v") format("woff"),
+		url("/fonts/Slim-Joe.ttf?d7yf1v") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
 
+
+@font-face {
+	font-family: "Pe-icon-7-stroke";
+	src:url("Pe-icon-7-stroke.eot?d7yf1v");
+	src:url("Pe-icon-7-stroke.eot?#iefixd7yf1v") format("embedded-opentype"),
+		url("Pe-icon-7-stroke.woff?d7yf1v") format("woff"),
+		url("Pe-icon-7-stroke.ttf?d7yf1v") format("truetype"),
+		url("Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
