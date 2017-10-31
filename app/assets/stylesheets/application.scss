@@ -14,36 +14,3 @@
  *= require_self
  */
 
-
-@font-face {
-	font-family: 'Verlag-Book';
-	src:asset-url('Verlag-Book.otf') format("opentype");
-	src:asset-url('Verlag-Book.eot?d7yf1v');
-	src:asset-url('Verlag-Book.eot?#iefixd7yf1v') format('embedded-opentype'),
-		asset-url('Verlag-Book.woff?d7yf1v') format('woff'),
-		asset-url('Verlag-Book.ttf?d7yf1v') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Verlag-Book';
-	src:asset-url('Verlag-Bold.otf') format("opentype");
-	src:asset-url('Verlag-Bold.eot?d7yf1v');
-	src:asset-url('Verlag-Bold.eot?#iefixd7yf1v') format('embedded-opentype'),
-		asset-url('Verlag-Bold.woff?d7yf1v') format('woff'),
-		asset-url('Verlag-Bold.ttf?d7yf1v') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Slim-Joe';
-	src:asset-url('Slim-Joe.eot?d7yf1v');
-	src:asset-url('Slim-Joe.eot?#iefixd7yf1v') format('embedded-opentype'),
-		asset-url('Slim-Joe.woff?d7yf1v') format('woff'),
-		asset-url('Slim-Joe.ttf?d7yf1v') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
