@@ -2568,10 +2568,10 @@ body.noscroll {
   padding: 4% 8%;
 }
 .section-we-made-3 .row .col-md-4 a .content h4 {
-  font-size: 28px;
+  font-size: 20px;
 }
 .section-we-made-3 .row .col-md-4 a .content p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .section-with-hover .project {
@@ -2675,16 +2675,16 @@ body.noscroll {
   background: rgba(52, 52, 52, 0.7);
 }
 .section-with-hover .project .over-area.color-green {
-  background: rgba(39, 94, 76, 0.55);
+  background: rgba(39, 94, 76, 0.7);
 }
 .section-with-hover .project .over-area.color-gold {
-  background: rgba(197, 164, 126, 0.55);
+  background: rgba(142, 86, 21, 0.75);
 }
 .section-with-hover .project .over-area.color-blue {
-  background: rgba(61, 146, 207, 0.55);
+  background: rgba(61, 146, 207, 0.7);
 }
 .section-with-hover .project .over-area.color-purple {
-  background: rgba(89, 57, 111, 0.55);
+  background: rgba(89, 57, 111, 0.7);
 }
 .section-with-hover .project .over-area.gradient-1 {
   background: -moz-linear-gradient(-45deg, rgba(151, 78, 32, 0.4) 0%, rgba(244, 218, 138, 0.4) 100%);

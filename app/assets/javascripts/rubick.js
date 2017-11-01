@@ -285,7 +285,7 @@ rubik = {
     },  
     
     checkScrollForTransparentNavbar: debounce(function() {	
-        	if($(document).scrollTop() > 560 ) {
+        	if($(document).scrollTop() > 50 ) {
                 if(transparent) {
                     transparent = false;
                     $('nav[role="navigation"]').removeClass('navbar-transparent');
