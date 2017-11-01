@@ -82,6 +82,35 @@
   opacity: 1;
 }
 
+
+.btn-grey {
+  background-color: transparent;
+  border-color: #000000;
+  color: white;
+  opacity: 1;
+  line-height: 1em;
+  position: relative;
+  padding: 16px 44px;
+  letter-spacing: 2px;
+}
+.btn-grey i {
+  position: absolute;
+  top: 14px;
+  right: 0.25em;
+  opacity: 0;
+}
+.btn-grey:hover, .btn-grey:focus {
+  background-color: #343434;
+  border-color: #343434;
+  color: white;
+  padding: 16px 54px 16px 34px;
+}
+.btn-grey:hover i, .btn-grey:focus i {
+  right: 26px;
+  opacity: 1;
+}
+
+
 /* BUTTONS */
 .form-control {
   border-color: #d0cdbc;
