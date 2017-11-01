@@ -80,9 +80,7 @@ $(document).ready(function(){
      }, 3000);
         
     
-    if($('#contactUsMap').length != 0){
-        rubik.initGoogleMaps();   
-    }
+    
     
     if($('.content-with-opacity').length != 0){
         content_opacity = 1;
@@ -384,26 +382,9 @@ rubik = {
         });
     },
     
-    initGoogleMaps: function(){
-        var myLatlng = new google.maps.LatLng(54.27177289999999, -8.471964899999989);
-        
-        var mapOptions = {
-          zoom: 15,
-          center: myLatlng,
-          scrollwheel: false, //we disable de scroll over the map, it is a really annoing when you scroll through page
-          disableDefaultUI: true,
-          styles: [{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"on"},{"gamma":"1.82"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"gamma":"1.96"},{"lightness":"-9"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"on"},{"lightness":"25"},{"gamma":"1.00"},{"saturation":"-100"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"hue":"#ffaa00"},{"saturation":"-43"},{"visibility":"on"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"simplified"},{"hue":"#ffaa00"},{"saturation":"-70"}]},{"featureType":"road.highway.controlled_access","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"visibility":"on"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"road.local","elementType":"all","stylers":[{"saturation":"-100"},{"lightness":"40"},{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"gamma":"0.80"}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"off"}]}]
-        }
-        var map = new google.maps.Map(document.getElementById("contactUsMap"), mapOptions);
-        
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            title:"The Building Block"
-        });
-        
-        // To add the marker to the map, call setMap();
-        marker.setMap(map);
-    }
+
+    
+
 
 }
 
